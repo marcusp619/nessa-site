@@ -60,7 +60,7 @@ const HomeIndex = () => {
           >
             <header className="major">
               <h3>Pricing</h3>
-              <p>Ipsum dolor sit amet</p>
+              <p>How much to watch your furry family members.</p>
             </header>
             <Link to="/landing" className="link primary"></Link>
           </article>
@@ -71,7 +71,7 @@ const HomeIndex = () => {
           >
             <header className="major">
               <h3>Services</h3>
-              <p>feugiat amet tempus</p>
+              <p>The various services we offer.</p>
             </header>
             <Link to="/landing" className="link primary"></Link>
           </article>
@@ -81,8 +81,8 @@ const HomeIndex = () => {
             }}
           >
             <header className="major">
-              <h3>Policy</h3>
-              <p>Lorem etiam nullam</p>
+              <h3>FAQS</h3>
+              <p>Common questions asked.</p>
             </header>
             <Link to="/landing" className="link primary"></Link>
           </article>
@@ -92,8 +92,8 @@ const HomeIndex = () => {
             }}
           >
             <header className="major">
-              <h3>FAQS</h3>
-              <p>lorem</p>
+              <h3>Policy</h3>
+              <p>Guidelines to follow.</p>
             </header>
             <Link to="/landing" className="link primary"></Link>
           </article>
@@ -104,7 +104,7 @@ const HomeIndex = () => {
           >
             <header className="major">
               <h3>Photos</h3>
-              <p>Ipsum dolor sit amet</p>
+              <p>Pics!</p>
             </header>
             <Link to="/landing" className="link primary"></Link>
           </article>
