@@ -62,7 +62,11 @@ const HomeIndex = () => {
               <h3>Pricing</h3>
               <p>How much to watch your furry family members.</p>
             </header>
-            <Link to="/landing" className="link primary"></Link>
+            <Link
+              to="/landing"
+              state={{ title: 'Pricing' }}
+              className="link primary"
+            ></Link>
           </article>
           <article
             style={{
@@ -73,7 +77,11 @@ const HomeIndex = () => {
               <h3>Services</h3>
               <p>The various services we offer.</p>
             </header>
-            <Link to="/landing" className="link primary"></Link>
+            <Link
+              to="/landing"
+              state={{ title: 'Services' }}
+              className="link primary"
+            ></Link>
           </article>
           <article
             style={{
@@ -84,7 +92,11 @@ const HomeIndex = () => {
               <h3>FAQS</h3>
               <p>Common questions asked.</p>
             </header>
-            <Link to="/landing" className="link primary"></Link>
+            <Link
+              to="/landing"
+              state={{ title: 'FAQS' }}
+              className="link primary"
+            ></Link>
           </article>
           <article
             style={{
@@ -95,7 +107,11 @@ const HomeIndex = () => {
               <h3>Policy</h3>
               <p>Guidelines to follow.</p>
             </header>
-            <Link to="/landing" className="link primary"></Link>
+            <Link
+              to="/landing"
+              state={{ title: 'Policy' }}
+              className="link primary"
+            ></Link>
           </article>
           <article
             style={{
@@ -106,7 +122,11 @@ const HomeIndex = () => {
               <h3>Photos</h3>
               <p>Pics!</p>
             </header>
-            <Link to="/landing" className="link primary"></Link>
+            <Link
+              to="/landing"
+              state={{ title: 'Photos' }}
+              className="link primary"
+            ></Link>
           </article>
           <article
             style={{
@@ -117,7 +137,11 @@ const HomeIndex = () => {
               <h3>Blog</h3>
               <p>Coming Soon!</p>
             </header>
-            <Link to="/landing" className="link primary"></Link>
+            <Link
+              to="/landing"
+              state={{ title: 'Blog' }}
+              className="link primary"
+            ></Link>
           </article>
         </section>
         {/* <section id="two">
