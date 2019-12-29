@@ -38,12 +38,11 @@ export const getPictures = graphql`
 `
 const HomeIndex = () => {
   const data = useStaticQuery(getPictures)
-  console.log(data)
 
   return (
     <Layout>
       <Helmet
-        title="Gatsby Starter - Forty"
+        title="Triple L Express - Dog Sitting"
         meta={[
           { name: 'description', content: 'Sample' },
           { name: 'keywords', content: 'sample, something' },
