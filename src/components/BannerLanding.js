@@ -1,7 +1,6 @@
 import React from 'react'
 
 const BannerLanding = props => {
-  console.log(props)
   const { title } = props.content
 
   return (

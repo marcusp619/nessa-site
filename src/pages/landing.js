@@ -10,7 +10,7 @@ import pic10 from '../assets/images/pic10.jpg'
 
 const Landing = props => {
   const { title } = props.location.state
-  console.log(title)
+
   return (
     <Layout>
       <Helmet>
